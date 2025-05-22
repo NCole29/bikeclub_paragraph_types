@@ -1,5 +1,5 @@
 name: 'Bikeclub Paragraph types'
-description: 'Provides paragraph types: callout, card, text, and section.'
+description: 'Provides callout, card, text, and section paragraph types.'
 type: 'Content field'
 install:
   - block_content
