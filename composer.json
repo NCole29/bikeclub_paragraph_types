@@ -14,7 +14,7 @@
   "require": {
     "drupal/entity_reference_revisions": "^1.0",
     "drupal/field_group": "^3.0",
-    "drupal/fontawesome": "^2.26",
+    "drupal/fontawesome": "^3.0",
     "drupal/layout_paragraphs": "^2.0",
     "drupal/paragraphs": "^1.0",
     "drupal/style_selector": "^2.0@alpha",
