@@ -18,7 +18,7 @@
     "drupal/layout_paragraphs": "^2.0",
     "drupal/paragraphs": "^1.0",
     "drupal/style_selector": "^2.0@alpha",
-    "npm-asset/fonticonpicker--fonticonpicker": "^1.0",
+    "npm-asset/fonticonpicker--fonticonpicker": "^3.0",
     "npm-asset/fortawesome--fontawesome-free": "5.15"
   },
   "extra": {
