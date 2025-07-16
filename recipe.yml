@@ -25,5 +25,3 @@ config:
         - 'delete any paragraphs_block block content'
         - 'edit any paragraphs_block block content'
         - 'view any paragraphs_block block content history'
-        
-        
