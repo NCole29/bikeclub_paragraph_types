@@ -6,7 +6,6 @@ install:
   - link
   - media
   - options
-  - text
   # Contrib.
   - entity_reference_revisions
   - field_group
