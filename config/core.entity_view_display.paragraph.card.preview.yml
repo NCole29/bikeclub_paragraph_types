@@ -9,7 +9,7 @@ dependencies:
     - field.field.paragraph.card.field_card_width
     - field.field.paragraph.card.field_image
     - field.field.paragraph.card.field_link
-    - field.field.paragraph.card.field_text
+    - field.field.paragraph.card.field_ptext
     - field.field.paragraph.card.field_title
     - paragraphs.paragraphs_type.card
 id: paragraph.card.preview
@@ -32,4 +32,4 @@ hidden:
   field_card_width: true
   field_image: true
   field_link: true
-  field_text: true
+  field_ptext: true

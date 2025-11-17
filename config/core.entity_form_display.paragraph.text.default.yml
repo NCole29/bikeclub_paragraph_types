@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.text.field_text
+    - field.field.paragraph.text.field_ptext
     - paragraphs.paragraphs_type.text
   module:
     - text
@@ -11,7 +11,7 @@ targetEntityType: paragraph
 bundle: text
 mode: default
 content:
-  field_text:
+  field_ptext:
     type: text_textarea
     weight: 0
     region: content
