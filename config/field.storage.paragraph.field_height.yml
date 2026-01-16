@@ -4,18 +4,18 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_callout_height
-field_name: field_callout_height
+id: paragraph.field_height
+field_name: field_height
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: callout-height-auto
-      label: auto
+      value: height-auto
+      label: 'Auto (fit contents)'
     -
-      value: callout-height-90
-      label: 90%
+      value: height-100
+      label: '100% (fill container)'
   allowed_values_function: ''
 module: options
 locked: false

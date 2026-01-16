@@ -4,21 +4,18 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_card_width
-field_name: field_card_width
+id: paragraph.field_card_bgcolor
+field_name: field_card_bgcolor
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: card-width-auto
-      label: auto
+      value: bg-white
+      label: 'White (default)'
     -
-      value: card-width-95
-      label: 95%
-    -
-      value: card-width-100
-      label: 100%
+      value: bg-light-gray
+      label: 'Light gray'
   allowed_values_function: ''
 module: options
 locked: false

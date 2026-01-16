@@ -2,13 +2,14 @@ langcode: en
 status: true
 dependencies:
   module:
+    - link
     - paragraphs
-id: paragraph.field_box_shadow
-field_name: field_box_shadow
+id: paragraph.field_button
+field_name: field_button
 entity_type: paragraph
-type: boolean
+type: link
 settings: {  }
-module: core
+module: link
 locked: false
 cardinality: 1
 translatable: true

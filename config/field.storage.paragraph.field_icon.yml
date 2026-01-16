@@ -2,13 +2,14 @@ langcode: en
 status: true
 dependencies:
   module:
+    - fontawesome
     - paragraphs
-id: paragraph.field_callout_border
-field_name: field_callout_border
+id: paragraph.field_icon
+field_name: field_icon
 entity_type: paragraph
-type: boolean
+type: fontawesome_icon
 settings: {  }
-module: core
+module: fontawesome
 locked: false
 cardinality: 1
 translatable: true

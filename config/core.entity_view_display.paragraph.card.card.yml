@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.paragraph.preview
+    - core.entity_view_mode.paragraph.card
     - field.field.paragraph.card.field_card_bgcolor
     - field.field.paragraph.card.field_height
     - field.field.paragraph.card.field_image
@@ -12,12 +12,17 @@ dependencies:
     - image.style.large_4_3
     - paragraphs.paragraphs_type.card
   module:
+    - layout_builder
     - media
     - text
-id: paragraph.card.preview
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.card.card
 targetEntityType: paragraph
 bundle: card
-mode: preview
+mode: card
 content:
   field_image:
     type: media_thumbnail

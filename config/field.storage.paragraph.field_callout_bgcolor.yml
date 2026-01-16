@@ -4,21 +4,18 @@ dependencies:
   module:
     - options
     - paragraphs
-id: paragraph.field_card_height
-field_name: field_card_height
+id: paragraph.field_callout_bgcolor
+field_name: field_callout_bgcolor
 entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: card-height-auto
-      label: auto
+      value: bg-white
+      label: 'White (default)'
     -
-      value: card-height-95
-      label: 95%
-    -
-      value: card-height-100
-      label: 100%
+      value: bg-light-blue
+      label: 'Light blue'
   allowed_values_function: ''
 module: options
 locked: false
